@@ -9,7 +9,7 @@ class AuthController extends Controller
     public function form(){
         return view("form");
     }
-    public function welcome(){
+    public function welcome(Request $req){
 
         return view("welcome");
     }

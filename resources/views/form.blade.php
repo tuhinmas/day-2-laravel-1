@@ -13,11 +13,12 @@
         Sign Up Form
     </h3>
     <form method = "POST" action="/welcome">
+        @csrf
         <p>First Name:</p>
-        <input name="nama" size=60>
+        <input name="nama_depan" size=60>
 
         <p>Last Name:</p>
-        <input name="nama" size=60>
+        <input name="nama_belakang" size=60>
 
         <p>Gender:</p>
         <input type="radio" name="sex">male<br>
