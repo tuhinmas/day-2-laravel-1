@@ -15,10 +15,10 @@
     <form method = "POST" action="/welcome">
         @csrf
         <p>First Name:</p>
-        <input name="nama_depan" size=60>
+        <input name="nama_depan" size=60  require>
 
         <p>Last Name:</p>
-        <input name="nama_belakang" size=60>
+        <input name="nama_belakang" size=60 require>
 
         <p>Gender:</p>
         <input type="radio" name="sex">male<br>
@@ -38,7 +38,7 @@
         <input type="radio" name="other">Other<br>
 
         <p>Bio:</p>
-        <textarea cols="60" rows="7">
+        <textarea cols="60" rows="7" require>
         </textarea>
 
         <br>

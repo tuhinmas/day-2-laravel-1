@@ -13,5 +13,7 @@
             Terimakasih telah bergabung di Sanberbook. Social Media kita bersama!
         </h3>
     </h1>
+    <p>{{"Nama Depan : $nama_depan"}}</p>
+    <p>{{"Nama Belakang : $nama_belakang"}}
 </body>
 </html>
